@@ -32,7 +32,7 @@ public class Usuario {
 
     public boolean validarContrasena() {
         if (contrasena == null) return false;
-        if (contrasena.length() < 8 || contrasena.length() > 20) return false;
+        if (contrasena.length() < 3 || contrasena.length() > 5) return false;
         boolean tieneMayuscula = false;
         boolean tieneMinuscula = false;
         boolean tieneDigito    = false;
